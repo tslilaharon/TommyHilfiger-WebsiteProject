@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Hilfiger •womenProduct•</title>
+    <link rel="icon" href="images/Tommy_Hilfiger.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav bar-menu -->
+    <header>
+        <div class="nav_menu-to">
+            <div class="menu-toggle">
+                <i class="fa fa-bars" id="hamburger"></i>
+                <div class="logo_s">
+                    <div class="logos"><a href="home.html"><img src="images/Tologo.png" alt="" height="120"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+        <nav>
+
+            <div class="logo"><a href="home.html"><img src="images/tommy-hilfiger-logo.png" width="300px" height="40px"
+                        alt=""></a></div>
+            <div class="nav_menu">
+                <ul>
+                    <li><a class="nav_link" href="women.html">Women</a></li>
+                    <li><a class="nav_link" href="#">Men</a></li>
+                    <li><a class="nav_link" href="#">Kids</a></li>
+                    <li><a class="nav_link" href="#">Sports </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="menu-icon">
+            <div class="icon">
+                <span class="fas fa-search"></span></div>
+            <div class="icon">
+                <span class="fa fa-user" aria-hidden="true"></span></div>
+            <div class="icon">
+                <span class="fa fa-shopping-bag"></div>
+        </div>
+    </header>
+
+    <!-- login Box -->
+    <div class="loginBox " id="loginBox">
+        <div class="login" id="clogin">
+            <img src="images/close.png" alt="close" class="close">
+            <div class="btn-box">
+                <div id="btnl"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="SignUp()">Sign Up</button>
+            </div>
+        </div>
+
+        <form id="login" class="input-log">
+            <input type="text" class="input-field" placeholder="enter user name " required>
+            <input type="text" class="input-field" placeholder="enter password " required>
+            <input type="checkbox" name="checkbox" class="check-box"><label for="checkbox">remember password</label>
+            <button type="submit" class="submit-btnl">log in</button>
+        </form>
+        <form id="SignUp" class="input-log">
+            <input type="text" class="input-field" placeholder="enter user name" required>
+            <input type="email" class="input-field" placeholder="enter user email" required>
+            <input type="text" class="input-field" placeholder="enter password" required>
+            <input type="checkbox" name="checkbox" class="check-box"><label for="checkbox">remember password</label>
+            <button type="submit" class="submit-btnl">Sign Up</button>
+        </form>
+    </div>
+    <!-- Product -->
+    <div class="EssentialProduct">
+        <div class="container">
+            <div class="background-element">
+            </div>
+            <div id="imgBackground" class="highlight-window">
+                <div class="highlight-overlay"></div>
+            </div>
+            <div class="window">
+                <div class="main-content">
+                    <h2>TOMMY HILFIGER</h2>
+                    <h1 id="name"></h1>
+                    <h3 id="Typename"></h3>
+                    <div id="description" class="description"></div>
+                    <div id="imgBackground" class="highlight-window  mobile">
+                        <div class="highlight-overlay"></div>
+                    </div>
+                    <!-- Color -->
+                    <div class="options">
+                        <div id="colorOptions" class="color-options">
+                        </div>
+                        <!-- qty -->
+                        <div class="qty">
+                            <div class="value-button" id="decrease">-</div>
+                            <input id="number" value="1" />
+                            <div class="value-button" id="increase">+</div>
+                        </div>
+                        <!-- size -->
+                        <div class="size-change">
+                            Size:
+                            <div id="rangeColor" class="range-change">
+                                <div id="xs">xs</div>
+                                <div id="s">s</div>
+                                <div id="m" class="active">m</div>
+                                <div id="l">l</div>
+                                <div id="xl">xl</div>
+                            </div>
+                            <a class="small align-right" href="https://usa.tommy.com/en/customerservice/size-guide">VIEW
+                                SIZE-CHART</a>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <!-- price -->
+                    <div class="purchase-info">
+
+                        <span>$</span>
+                        <div id="price" class="price"> </div>
+
+                        <button class="btnc" id="addToCartBtn">ADD TO BAG</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- comments box -->
+    <div class="comment-container">
+
+        <h3 class="comment-container-title">Comments</h3>
+        <div class="comments">
+            <div class="comment flex items-start justify-start">
+                <img class="comment-userimg" src="images/Lara lee.jpg" />
+                <div class="flex-1">
+                    <h3 class="comment-username">Lara lee</h3>
+                    <p class="comment-body">I really liked this product !!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="comment comment-new flex items-start justify-start">
+            <img class="comment-userimg" src="images/user.png" />
+            <div class="flex-1">
+                <h3 class="comment-username">unknown</h3>
+                <form action="#" class="comment-form">
+                    <textarea placeholder="Add a comment" class="comment-input"></textarea>
+                    <input type="submit" class="comment-submit" value="post" />
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- card Details -->
+    <div class="container_cd">
+        <div class="card">
+            <div class="imgae cd-1"><img src="images/1.png" alt="" width="50px" height="50px"></div>
+            <div class="info">
+                <h3>General Information</h3>
+                <p>Due to fluctuations in exchange rates, customs and taxes may be imposed on orders whose value is very close to the tax exemption threshold.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgae cd-2"><img src="images/2.png" alt="" width="50px" height="50px"></div>
+            <div class="info">
+                <h3>Loyalty points and rewards</h3>
+                <p>loyalty points: For every purchase you make will get loyalty points which give you a certain amount of money Lkniitcm below.</p>
+              
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgae cd-3"><img src="images/4.png" alt="" width="50px" height="50px"></div>
+            <div class="info">
+                <h3>How is your package packed</h3>
+                <p>All orders from tommy hilfiger takes care of packing the products well inside the packages. Glass jars come wrapped in bubble wrap</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgae cd-4"><img src="images/3.png" alt="" width="50px" height="50px"></div>
+            <div class="info">
+                <h3>shipping</h3>
+                <p>are shipped from our warehouses in the US to your country via air freight. The estimated delivery time provided by reflects most of the standard delivery times.</p>
+            </div>
+        </div>
+    </div>
+    <!-- bag box -->
+    <div class="bagBox" id="bagBox">
+        <div class="bag">
+            <i class="fa fa-times"></i>
+            <h1>your Shopping bag</h1>
+            <div class="bagPage">
+                <table id="cartTable">
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>price</th>
+                    </tr>
+                </table>
+                <div class="total-price">
+                    <table id="sumamryTable">
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container"></div>
+    <footer>
+        <section class="footer_main">
+            <div class="ft-main-item">
+                <h2 class="ft-title">LET US HELP YOU</h2>
+                <ul>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="#">Your Order</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">GET TO KNOW</h2>
+                <ul>
+                    <li><a href="#">Global Site</a></li>
+                    <li><a href="#">Corporate Responsibility</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">POLICIES</h2>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <img src="images/tommy-hilfiger-logo.png" class="" width="300px" height="40px">
+                <h2 class="ft-title">Stay Updated</h2>
+                <p>Subscribe to our newsletter to get our latest news.</p>
+                <form>
+                    <input class="email" type="email" name="email" placeholder="Enter email address">
+                    <input class="submit" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+        <section class="ft-social">
+            <ul class="ft-social-list">
+                <li><a href="https://www.instagram.com/tommyhilfiger/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/tommyhilfiger"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.facebook.com/messages/t/tommyhilfiger"><i class="fab fa-facebook-messenger"></i></a></li>
+                <li><a href="https://usa.tommy.com/en/"><i class="fab fa-google-plus-square"></i></a></li>
+                <li><a href="https://www.youtube.com/tommyhilfiger"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/tommyhilfiger"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <a class="Copyright">tslil aharon © TOMMY HILFIGER</a>
+        </section>
+
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
