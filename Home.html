@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Hilfiger</title>
+    <link rel="icon" href="images/Tommy_Hilfiger.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav bar-menu -->
+    <header>
+        <div class="nav_menu-to">
+            <div class="menu-toggle">
+                <i class="fa fa-bars" id="hamburger"></i>
+                <div class="logo_s">
+                    <div class="logos"><a href="home.html"><img src="images/Tologo.png" alt="" height="120"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+        <nav>
+
+            <div class="logo"><a href="home.html"><img src="images/tommy-hilfiger-logo.png" width="300px" height="40px"
+                        alt=""></a></div>
+            <div class="nav_menu">
+                <ul>
+                    <li><a class="nav_link" href="women.html">Women</a></li>
+                    <li><a class="nav_link" href="#">Men</a></li>
+                    <li><a class="nav_link" href="#">Kids</a></li>
+                    <li><a class="nav_link" href="#">Sports </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="menu-icon">
+            <div class="icon">
+                <span class="fas fa-search"></span></div>
+            <div class="icon">
+                <span class="fa fa-user" aria-hidden="true" id="fa-user"></span></div>
+            <div class="icon">
+                <span class="fa fa-shopping-bag"></div>
+        </div>
+
+    </header>
+    <!-- login Box -->
+    <div class="loginBox " id="loginBox">
+        <div class="login" id="clogin">
+            <img src="images/close.png" alt="close" class="close">
+            <div class="btn-box">
+                <div id="btnl"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="SignUp()">Sign Up</button>
+            </div>
+            <div class="social-icons">
+                <img src="images/log.png">
+            </div>
+        </div>
+
+        <form id="login" class="input-log">
+            <input type="text" class="input-field" placeholder="enter user name " required>
+            <input type="text" class="input-field" placeholder="enter password " required>
+            <input type="checkbox" name="checkbox" class="check-box"><label for="checkbox">remember password</label>
+            <button type="submit" class="submit-btnl">log in</button>
+        </form>
+        <form id="SignUp" class="input-log">
+            <input type="text" class="input-field" placeholder="enter user name" required>
+            <input type="email" class="input-field" placeholder="enter user email" required>
+            <input type="text" class="input-field" placeholder="enter password" required>
+            <input type="checkbox" name="checkbox" class="check-box"><label for="checkbox">remember password</label>
+            <button type="submit" class="submit-btnl">Sign Up</button>
+        </form>
+    </div>
+    <!-- slider video -->
+    <section>
+        <div class="slider_home">
+            <video id="slider" autoplay muted loop playsInline>
+                <source src="images/vd/video1.mp4" type="video/mp4">
+            </video>
+
+            <ul class="navigation_slider">
+                <li onclick="videourl('images/vd/video1.mp4')"><img src="images/vd/video1gigi.jpg" width="130"
+                        height="60">
+                </li>
+                <li onclick="videourl('images/vd/video2.mp4')"><img src="images/vd/video2kids.jpg" width="130"
+                        height="60">
+                </li>
+                <li onclick="videourl('images/vd/video3.mp4')"><img src="images/vd/video4men.jpg" width="130"
+                        height="60">
+                </li>
+                <li onclick="videourl('images/vd/video4.mp4')"><img src="images/vd/video4women.jpg" width="130"
+                        height="60">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Categories home -->
+    <div class="container_box">
+        <div class="box">
+            <div class="Categories">
+                <img src="images/himg/gallery-img1.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <i class="fa fa-angle-down"></i>
+                    <h3>Women</h3>
+                    <a href="women.html">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="Categories">
+                <img src="images/himg/gallery-img4.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <i class="fa fa-angle-up"></i>
+                    <h3>Men</h3>
+                    <a href="#">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="Categories">
+                <img src="images/himg/gallery-img2.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <i class="fa fa-angle-down"></i>
+                    <h3>Kids</h3>
+                    <a href="#">shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="Categories">
+                <img src="images/himg/gallery-img5.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <i class="fa fa-angle-up"></i>
+                    <h3>Sports</h3>
+                    <a href="#">shop now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About us tommy -->
+    <div class="Aboutus">
+        <div class="About">
+            <a href="#">
+                <h1> About us</h1>
+            </a>
+        </div>
+        <p>One of the world’s leading designer lifestyle brands globally recognized for <br> bringing to life the
+            classic American cool spirit. Tommy Hilfiger markets its<br> products under several brands in order to fully
+            capitalize on its global appeal,<br> with each brand varying in price point, target demographic and
+            distribution.</p>
+    </div>
+    <!-- gigi hadid Collection -->
+    <h1 class="heading">TOMMYXGIGI COLLECTION</h1>
+    <div class="Collection_TOMMYXGIGI">
+        <div class="TOMMYXGIGI">
+            <div class="card_show">
+                <h3>Dresses</h3>
+            </div>
+            <img src="images/himg/gigi1.jpg" />
+            <a href="#"></a>
+        </div>
+        <div class="TOMMYXGIGI">
+            <div class="card_show">
+                <h3>Shoes</h3>
+            </div>
+            <img src="images/himg/gigi8.jpg" />
+            <a href="#"></a>
+        </div>
+        <div class="TOMMYXGIGI">
+            <div class="card_show">
+                <h3>Bags</h3>
+            </div>
+            <img src="images/himg/gigi3.jpg" />
+            <a href="#"></a>
+        </div>
+    </div>
+    <!-- Newsletter -->
+    <div class="Newsletter">
+        <h2 class="subnew">JOIN THE HILFIGER CLUB</h2>
+        <h3 class="subnew1">For a 20% off welcome offer and much more </h3>
+        <input type="text" name="email" value="" placeholder="Enter email address" class="form-controls"> <br>
+        <button class="btnn">Subscribe</button>
+    </div>
+    <!-- polaroid ContactUs -->
+    <div class="polaroid_ContactUs">
+        <a class="headingc" href="ContactUs.html">Contact Us</a>
+        <div class="ContactUs">
+
+            <img src="images/himg/t-img4.jpg" class="polaroid polaroid--first">
+
+            <img src="images/himg/t-img6.jpg" class="polaroid polaroid--second">
+
+            <img src="images/himg/t-img1.jpg" class="polaroid polaroid--third">
+
+            <img src="images/himg/t-img3.jpg" class="polaroid polaroid--fourth">
+
+            <img src="images/himg/t-img5.jpg" class="polaroid polaroid--fifth">
+
+            <img src="images/himg/t-img2.jpg" class="polaroid polaroid--sixth">
+
+        </div>
+    </div>
+    <!-- bag box -->
+    <div class="bagBox" id="bagBox">
+        <div class="bag">
+            <i class="fa fa-times"></i>
+            <h1>your Shopping bag</h1>
+            <div class="bagPage">
+                <table id="cartTable">
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>price</th>
+                    </tr>
+                </table>
+                <div class="total-price">
+                    <table id="sumamryTable">
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container"></div>
+    <footer>
+        <section class="footer_main">
+            <div class="ft-main-item">
+                <h2 class="ft-title">LET US HELP YOU</h2>
+                <ul>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="#">Your Order</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">GET TO KNOW</h2>
+                <ul>
+                    <li><a href="#">Global Site</a></li>
+                    <li><a href="#">Corporate Responsibility</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">POLICIES</h2>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <img src="images/tommy-hilfiger-logo.png" class="" width="300px" height="40px">
+                <h2 class="ft-title">Stay Updated</h2>
+                <p>Subscribe to our newsletter to get our latest news.</p>
+                <form>
+                    <input class="email" type="email" name="email" placeholder="Enter email address">
+                    <input class="submit" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+        <section class="ft-social">
+            <ul class="ft-social-list">
+                <li><a href="https://www.instagram.com/tommyhilfiger/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/tommyhilfiger"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.facebook.com/messages/t/tommyhilfiger"><i class="fab fa-facebook-messenger"></i></a></li>
+                <li><a href="https://usa.tommy.com/en/"><i class="fab fa-google-plus-square"></i></a></li>
+                <li><a href="https://www.youtube.com/tommyhilfiger"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/tommyhilfiger"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <a class="Copyright">tslil aharon © TOMMY HILFIGER</a>
+        </section>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
