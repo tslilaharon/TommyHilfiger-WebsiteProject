@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Hilfiger •ContactUs•</title>
+    <link rel="icon" href="images/Tommy_Hilfiger.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav bar-menu -->
+    <header>
+        <div class="nav_menu-to">
+            <div class="menu-toggle">
+                <i class="fa fa-bars" id="hamburger"></i>
+                <div class="logo_s">
+                    <div class="logos"><a href="home.html"><img src="images/Tologo.png" alt="" height="120"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+        <nav>
+
+            <div class="logo"><a href="home.html"><img src="images/tommy-hilfiger-logo.png" width="300px" height="40px"
+                        alt=""></a></div>
+            <div class="nav_menu">
+                <ul>
+                    <li><a class="nav_link" href="women.html">Women</a></li>
+                    <li><a class="nav_link" href="#">Men</a></li>
+                    <li><a class="nav_link" href="#">Kids</a></li>
+                    <li><a class="nav_link" href="#">Sports </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="menu-icon">
+            <div class="icon">
+                <span class="fas fa-search"></span></div>
+            <div class="icon">
+                <span class="fa fa-user" aria-hidden="true"></span></div>
+            <div class="icon">
+                <span class="fa fa-shopping-bag"></div>
+        </div>
+    </header>
+
+<!-- login Box -->
+    <div class="loginBox " id="loginBox">
+        <div class="login" id="clogin">
+            <img src="images/close.png" alt="close" class="close">
+            <div class="btn-box">
+                <div id="btnl"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="SignUp()">Sign Up</button>
+            </div>
+        </div>
+
+        <form id="login" class="input-log">
+            <input type="text" class="input-field" placeholder="enter user name " required>
+            <input type="text" class="input-field" placeholder="enter password " required>
+            <input type="checkbox" name="checkbox" class="check-box"><label for="checkbox">remember password</label>
+            <button type="submit" class="submit-btnl">log in</button>
+        </form>
+        <form id="SignUp" class="input-log">
+            <input type="text" class="input-field" placeholder="enter user name" required>
+            <input type="email" class="input-field" placeholder="enter user email" required>
+            <input type="text" class="input-field" placeholder="enter password" required>
+            <input type="checkbox" name="checkbox" class="check-box"><label for="checkbox">remember password</label>
+            <button type="submit" class="submit-btnl">Sign Up</button>
+        </form>
+    </div>
+    <!-- contact us -->
+    <div class="contact_us">
+        <section id="contact">
+            <div class="social">
+                <a href="https://www.instagram.com/tommyhilfiger/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/tommyhilfiger"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/tommyhilfiger"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/tommyhilfiger"><i class="fab fa-twitter"></i></a>
+            </div>
+
+            <div class="contact-box">
+                <div class="c-heading">
+                    <h1>Get In Touch</h1>
+                    <p>We will be happy to answer any Questions Or Issues</p>
+                </div>
+
+                <div class="c-inputs">
+                    <form>
+                        <input type="text" placeholder="Enter Full Name" />
+                        <input type="email" placeholder="Tommy@tommyhilfiger.com" />
+                        <textarea name="message" placeholder="Write Message"></textarea>
+                        <button class="SEND">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752867.675814399!2d-117.69656630945677!3d33.55447985540105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3357f84d334e3%3A0x7fd1e9fbb3dde909!2sTommy%20Hilfiger!5e0!3m2!1siw!2sil!4v1597045581814!5m2!1siw!2sil"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </section>
+    </div>
+    <!-- FAQS -->
+    <div class="FAQS">
+        <div class='centerplease'>
+            <h1>FAQS</h1>
+        </div>
+        <br>
+        <div class="content">
+            <div>
+                <input type="checkbox" id="question1" class="questions">
+                <div class="plus">+</div>
+                <label for="question1" class="question">
+                    Shipping
+                </label>
+                <div class="answers">
+                    When will I receive my order?
+                    <br>
+                    We ship Monday through Friday excluding U.S. federal holidays. Please allow up to two business days
+                    processing time in addition to standard delivery time based on your selected shipping method.
+                    <br>
+                    Please note, during high volume times such as holidays and special sales, there may be a slight
+                    delay in
+                    order processing. Your business is important to us, and we’ll make every effort to process your
+                    order as
+                    soon as possible.
+                </div>
+            </div>
+
+            <div>
+                <input type="checkbox" id="question2" class="questions">
+                <div class="plus">+</div>
+                <label for="question2" class="question">
+                    Returns & Exchanges
+                </label>
+                <div class="answers">
+                    What's your return policy?
+                    <br>
+                    For orders placed within the United States, we accept returns within 90 days (effective 4/15/2020)
+                    after
+                    you receive shipping confirmation. For orders shipped to Canada, we accept returns within 90 days
+                    after
+                    shipping confirmation. In order to accept your return, items must be unworn with tags attached.
+                    Footwear
+                    must be unworn and include its original shoebox without post labels.
+                    <br>
+                    Please note, items marked FINAL SALE are not eligible for returns, refunds, exchanges or credits.
+                </div>
+            </div>
+
+            <div>
+                <input type="checkbox" id="question3" class="questions">
+                <div class="plus">+</div>
+                <label for="question3" class="question">
+                    Payment
+                </label>
+                <div class="answers">
+                    What forms of payment do you accept?
+                    <br>
+                    Visa
+                    MasterCard
+                    American Express
+                    Discover
+                    Apple Pay
+                    PayPal
+                    Tommy Hilfiger Gift Card
+                    We do not accept the following forms of payment:
+                    <br>
+                    CODs
+                    Checks
+                    Layaway plans
+                    Credit cards issued from Afghanistan, Angola, Central African Republic, Cote d'Ivoire, Cuba, Egypt,
+                    Ghana, Iran, Iraq, Democratic People's Republic of Korea, Liberia, Libya, Myanmar, Nigeria, Russia,
+                    Sierra Leone, Somalia, Sudan, Syria and Ukraine.
+                </div>
+            </div>
+            <div>
+                <input type="checkbox" id="question4" class="questions">
+                <div class="plus">+</div>
+                <label for="question4" class="question">
+                    Products, Fit & Sizes
+                </label>
+                <div class="answers">
+                    What is the difference between the different Tommy Hilfiger collection lines?
+                    <br>
+                    -TOMMY HILFIGER-
+                    <br>
+                    Tommy Hilfiger is our signature sportswear line where you'll find all the classic American staples
+                    that put us on the map - our polos, chinos, oxfords, blazers and outerwear that exemplify classic
+                    American cool.
+                    <br>
+                    -HILFIGER COLLECTION-
+                    <br>
+                    This is our premiere line where classics are boldly re-imagined while remaining wearable and rooted
+                    in our preppy heritage. Each piece is made in Italy and produced in very limited quantities, while
+                    many of these styles are featured in our bi-annual runway shows.
+                    <br>
+                    -TOMMY JEANS-
+                    <br>
+                    Formerly known as Hilfiger Denim, Tommy Jeans targets our younger, edgier demographic. The line
+                    plays off the re-issue of our authentic original designs released in the 80s and 90s that are now
+                    considered 'vintage.'
+                    <br>
+                    -TOMMY HILFIGER TAILORED-
+                    <br>
+                    Our Tailored line re-imagines traditional suiting with innovative fabrics, exacting cuts and stylish
+                    details. These pieces have bolder prints, athleisure hybrids and mashups where modern sophistication
+                    meets the functional needs of today's man
+                    <br>
+                    -TOMMYNOW-
+                    <br>
+                    We're breaking the old-school rules of fashion and making it all accessible by giving instant access
+                    to our runway collections. These are our greatest hits, remixed and restyled for the digital age and
+                    shoppable the moment the lights go up.
+                </div>
+            </div>
+            <div>
+                <input type="checkbox" id="question5" class="questions">
+                <div class="plus">+</div>
+                <label for="question5" class="question">
+                    My Account
+                </label>
+                <div class="answers">
+                    How do I subscribe to your email list?
+                    <br>
+                    To be first to hear of sales, special collections and exclusive events, please join our email list
+                    by clicking Newsletter Signup at the bottom of our homepage.
+                    <br>
+                    How do I unsubscribe from your email list?
+                    <br>
+                    We'll be sad to see you go, but if you'd no longer like to receive emails from Tommy.com simply
+                    click Unsubscribe at the bottom of the email.
+                    <br>
+                    How do I create an account?
+                    <br>
+                    Simply click Register or follow the prompts when placing an order. Creating an account gives you an
+                    easy and convenient way to shop, track your shipments, and receive emails about your order.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- bag box -->
+    <div class="bagBox" id="bagBox">
+        <div class="bag">
+            <i class="fa fa-times"></i>
+            <h1>your Shopping bag</h1>
+            <div class="bagPage">
+                <table id="cartTable">
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>price</th>
+                    </tr>
+                </table>
+                <div class="total-price">
+                    <table id="sumamryTable">
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container"></div>
+    <footer>
+        <section class="footer_main">
+            <div class="ft-main-item">
+                <h2 class="ft-title">LET US HELP YOU</h2>
+                <ul>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="#">Your Order</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">GET TO KNOW</h2>
+                <ul>
+                    <li><a href="#">Global Site</a></li>
+                    <li><a href="#">Corporate Responsibility</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">POLICIES</h2>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <img src="images/tommy-hilfiger-logo.png" class="" width="300px" height="40px">
+                <h2 class="ft-title">Stay Updated</h2>
+                <p>Subscribe to our newsletter to get our latest news.</p>
+                <form>
+                    <input class="email" type="email" name="email" placeholder="Enter email address">
+                    <input class="submit" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+        <section class="ft-social">
+            <ul class="ft-social-list">
+                <li><a href="https://www.instagram.com/tommyhilfiger/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/tommyhilfiger"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.facebook.com/messages/t/tommyhilfiger"><i class="fab fa-facebook-messenger"></i></a></li>
+                <li><a href="https://usa.tommy.com/en/"><i class="fab fa-google-plus-square"></i></a></li>
+                <li><a href="https://www.youtube.com/tommyhilfiger"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/tommyhilfiger"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <a class="Copyright">tslil aharon © TOMMY HILFIGER</a>
+        </section>
+
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
