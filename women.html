@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Hilfiger •women•</title>
+    <link rel="icon" href="images/Tommy_Hilfiger.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav bar-menu -->
+    <header>
+        <div class="nav_menu-to">
+            <div class="menu-toggle">
+                <i class="fa fa-bars" id="hamburger"></i>
+                <div class="logo_s">
+                    <div class="logos"><a href="home.html"><img src="images/Tologo.png" alt="" height="120"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+        <nav>
+
+            <div class="logo"><a href="home.html"><img src="images/tommy-hilfiger-logo.png" width="300px" height="40px"
+                        alt=""></a></div>
+            <div class="nav_menu">
+                <ul>
+                    <li><a class="nav_link" href="women.html">Women</a></li>
+                    <li><a class="nav_link" href="#">Men</a></li>
+                    <li><a class="nav_link" href="#">Kids</a></li>
+                    <li><a class="nav_link" href="#">Sports </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="menu-icon">
+            <div class="icon">
+                <span class="fas fa-search"></span></div>
+            <div class="icon">
+                <span class="fa fa-user" aria-hidden="true"></span></div>
+            <div class="icon">
+                <span class="fa fa-shopping-bag"></div>
+        </div>
+    </header>
+
+    <!-- login Box -->
+    <div class="loginBox " id="loginBox">
+        <div class="login" id="clogin">
+            <img src="images/close.png" alt="close" class="close">
+            <div class="btn-box">
+                <div id="btnl"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="SignUp()">Sign Up</button>
+            </div>
+        </div>
+
+        <form id="login" class="input-log">
+            <input type="text" class="input-field" placeholder="enter user name " required>
+            <input type="text" class="input-field" placeholder="enter password " required>
+            <input type="checkbox" name="checkbox" class="check-box"><label for="checkbox">remember password</label>
+            <button type="submit" class="submit-btnl">log in</button>
+        </form>
+        <form id="SignUp" class="input-log">
+            <input type="text" class="input-field" placeholder="enter user name" required>
+            <input type="email" class="input-field" placeholder="enter user email" required>
+            <input type="text" class="input-field" placeholder="enter password" required>
+            <input type="checkbox" name="checkbox" class="check-box"><label for="checkbox">remember password</label>
+            <button type="submit" class="submit-btnl">Sign Up</button>
+        </form>
+    </div>
+    <!-- slider women -->
+    <div class="e"></div>
+    <div class="slider">
+        <div class="slide">
+            <img src="images/sd/sl1.jpg" />
+        </div>
+        <div class="slide">
+            <img src="images/sd/sl2.jpg" />
+            <div class="caption"> winter collection sale's</div>
+        </div>
+        <div class="slide">
+            <img src="images/sd/sl3.jpg" />
+            <div class="caption">The new summer collection </div>
+        </div>
+        <div class="slide">
+            <img src="images/sd/sl4.jpg" />
+            <div class="caption">TOMMYXGIGI summer collection </div>
+        </div>
+        <div class="slide">
+            <img src="images/sd/sl5.jpg" />
+            <div class="caption">Spring Adaptive Collection</div>
+        </div>
+        <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+    <!-- womens items -->
+    <div class="womentitel">
+        <h1><span>women</span></h1>
+    </div>
+
+    <div class="womens_Products">
+        <div id="allProducts" class="w_Products">
+        </div>
+    </div>
+    <!-- bag box -->
+    <div class="bagBox" id="bagBox">
+        <div class="bag">
+            <i class="fa fa-times"></i>
+            <h1>your Shopping bag</h1>
+            <div class="bagPage">
+                <table id="cartTable">
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>price</th>
+                    </tr>
+                </table>
+                <div class="total-price">
+                    <table id="sumamryTable">
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container"></div>
+    <footer>
+        <section class="footer_main">
+            <div class="ft-main-item">
+                <h2 class="ft-title">LET US HELP YOU</h2>
+                <ul>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="#">Your Order</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">GET TO KNOW</h2>
+                <ul>
+                    <li><a href="#">Global Site</a></li>
+                    <li><a href="#">Corporate Responsibility</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">POLICIES</h2>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <img src="images/tommy-hilfiger-logo.png" class="" width="300px" height="40px">
+                <h2 class="ft-title">Stay Updated</h2>
+                <p>Subscribe to our newsletter to get our latest news.</p>
+                <form>
+                    <input class="email" type="email" name="email" placeholder="Enter email address">
+                    <input class="submit" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+        <section class="ft-social">
+            <ul class="ft-social-list">
+                <li><a href="https://www.instagram.com/tommyhilfiger/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/tommyhilfiger"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.facebook.com/messages/t/tommyhilfiger"><i class="fab fa-facebook-messenger"></i></a></li>
+                <li><a href="https://usa.tommy.com/en/"><i class="fab fa-google-plus-square"></i></a></li>
+                <li><a href="https://www.youtube.com/tommyhilfiger"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/tommyhilfiger"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <a class="Copyright">tslil aharon © TOMMY HILFIGER</a>
+        </section>
+
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
